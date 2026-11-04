@@ -1,0 +1,8 @@
+Approximately what percentage of sites needs to be open for the grid to percolate? Is this value true for all square grids or does it change based on the grid size?
+For me, The number hovered around 58-59. When I changed the size, Mean didn't really change. 
+
+What is the impact of more trials and/or a larger grid size on your data?
+All data changes slightly with the change in trials. size has less of an impact. 
+
+Why is an efficient UF algorithm important for performing this monte carlo simulation?
+Because as you change the size, and run more trials, you need them to run fast and efficient.
