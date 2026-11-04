@@ -6,3 +6,12 @@ All data changes slightly with the change in trials. size has less of an impact.
 
 Why is an efficient UF algorithm important for performing this monte carlo simulation?
 Because as you change the size, and run more trials, you need them to run fast and efficient.
+
+Which is the most efficient for small to medium values of n? Does that change for larger n values?
+QF. Yes. it increased with larger values
+
+If you double the value of n (starting at a medium or large value -- don't choose 5), what happens to the runtime of each algorith? Does it double? More than double? Try starting with a number of different n values. Does this confirm or challenge the theoretical runtimes of each?
+for me, WQU stayed pretty much the same runtime, around .2 ms, and the other ones increased. They dont double, they seem to increase exponentially.
+
+At what value of n do QuickUnion and QuickFind become too slow? What is the runtime of WeightedQuickUnion when this happens?
+WQU always stayed quite fast around 43 ms, but when n = 1000000, QU AND QF took too long to process, and the user would definitely get bored of waiting and realise how great that WQU is.
